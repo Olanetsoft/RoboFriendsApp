@@ -24,7 +24,7 @@ class App extends Component {
         return(
             <div className='tc'>
                 <h1 className='f1'>Robo Friends</h1>
-                <a href="https://github.com/Olanetsoft/RoboFriendsApp"><h2>View on github.com/Olanetsoft/RoboFriendsApp</h2></a>
+                <a href="https://github.com/Olanetsoft/RoboFriendsApp"><h2 id="head">View on github.com/Olanetsoft/RoboFriendsApp</h2></a>
                 
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots={filteredRobots}/>  
